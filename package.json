@@ -1,0 +1,11 @@
+{
+  "name": "zeus-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pmontaguevans/zeus-lab.git",
+  "author": "Philip Montagu-Evans (philip@zeus-lab.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
