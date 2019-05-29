@@ -5,5 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
+	/* Your site config here */
+	siteMetadata: {
+		title: `zeus-lab`,
+    siteUrl: `https://www.zeus-lab.dev`,
+    description: `Blogging the future`,
+	},
+	plugins: [
+		`gatsby-plugin-react-helmet`,
+		`gatsby-plugin-sass`
+	] 
 }

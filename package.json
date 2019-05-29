@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "zeus-lab.dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Blogging the future",
   "version": "0.1.0",
   "license": "MIT",
+  "author": "Philip Montagu-Evans <philip@zeus-lab.dev>",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,17 +15,18 @@
   },
   "dependencies": {
     "gatsby": "^2.7.3",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/pmontaguevans/zeus-lab"
   }
 }
